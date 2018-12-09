@@ -1,0 +1,80 @@
+body{
+	background-image: url(img/dragonbg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	overflow-y: hidden;
+}
+
+#game-container{
+	width: 100%;
+	height: 100vw;
+	overflow-x: none;
+}
+
+#button1, #button2, #button3{
+	height: 40px;
+	width: 120px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+
+#inventoryItem{
+	position: absolute;
+	top: 725px;
+	left: 1275px;
+	width: 5%;
+	
+}
+
+#armor, #lockpick{
+	width: 4%;
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+}
+
+#armor:hover{
+	width: 4.5%;
+	cursor: pointer;
+}
+
+#lockpick{
+	width: 6%;
+	left: 1240px;
+	top: 420px;
+}
+
+#lockpick:hover{
+	width: 6.5%;
+	cursor: pointer;
+}
+
+#potion{
+	position: absolute;
+	width: 15%;
+	left: 375px;
+	top: 340px;
+}
+
+#potion:hover{
+	width: 15.5%;
+	cursor: pointer;
+}
+
+#button4{
+	position: absolute;
+	left: 1225px;
+	top: 525px;
+	background-color: rgba(0,0,0,0);
+	height: 75px;
+	width: 85px;
+	border: none;
+}
+
+#button4:hover{
+	cursor: pointer;
+}
